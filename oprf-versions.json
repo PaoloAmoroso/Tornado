@@ -8,7 +8,7 @@
     "path": "Nasal/weapons/missile-code.nas"
   },
   "damage": {
-    "version": "1.4.5",
+    "version": "1.4.7",
     "path": "Nasal/weapons/damage.nas"
   },
   "rcs-mand": {
