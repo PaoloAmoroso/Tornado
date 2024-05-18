@@ -4,11 +4,11 @@
     "path": "Nasal/weapons/vector.nas"
   },
   "missile-code": {
-    "version": "1.1.6",
+    "version": "1.1.7",
     "path": "Nasal/weapons/missile-code.nas"
   },
   "damage": {
-    "version": "1.4.10",
+    "version": "1.4.11",
     "path": "Nasal/weapons/damage.nas"
   },
   "rcs-mand": {
