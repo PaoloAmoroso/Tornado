@@ -55,6 +55,8 @@
 		<object-name>pylon.R</object-name>
 		<object-name>pylon.C</object-name>
 		<object-name>pylon.L</object-name>
+		<object-name>Hook_Fairing</object-name>
+                <object-name>Hook</object-name>
 		<object-name>guns</object-name>
 		<object-name>fin</object-name>
 		<object-name>WindscreenGlass</object-name>
@@ -95,6 +97,8 @@
 		<object-name>pylon.R</object-name>
 		<object-name>pylon.C</object-name>
 		<object-name>pylon.L</object-name>
+		<object-name>Hook_Fairing</object-name>
+                <object-name>Hook</object-name>
 		<object-name>targetpod_0</object-name>
 		<object-name>targetpod_0.001</object-name>
 		<object-name>targetpod_1</object-name>
@@ -145,6 +149,8 @@
 		<object-name>pylon.R</object-name>
 		<object-name>pylon.C</object-name>
 		<object-name>pylon.L</object-name>
+		<object-name>Hook_Fairing</object-name>
+                <object-name>Hook</object-name>
 		<object-name>targetpod_0</object-name>
 		<object-name>targetpod_0.001</object-name>
 		<object-name>targetpod_1</object-name>
