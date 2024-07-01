@@ -657,4 +657,24 @@
 			</and>
 		</condition>
 	</animation>
+	<!-- AN-AAQ-28 LITENING Pod -->
+	<model>
+		<name>LITENING</name>
+		<path>Aircraft/Tornado/Models/Stores/LITENING_AT/AN-AAQ-28.xml</path>
+		<offsets>
+			<x-m> -0.42721 </x-m>
+			<y-m>  0.00000 </y-m>
+			<z-m> -2.08180</z-m>
+		</offsets>
+	</model>
+	<animation>
+		<object-name>LITENING</object-name>
+		<type>select</type>
+		<condition>
+			<equals>
+				<property>payload/armament/station/id-4-set</property>
+				<value>LITENING Pod</value>
+			</equals>
+		</condition>
+	</animation>
 </PropertyList>

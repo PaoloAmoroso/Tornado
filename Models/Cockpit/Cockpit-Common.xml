@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
+	<!-- Pilots -->
+        <model>
+               <name>Pilot</name>
+               <path>Aircraft/Tornado/Models/Cockpit/Pilot/pilot.xml</path>
+               <offsets>
+		       <x-m> -4.10 </x-m>
+                       <y-m>  0.00 </y-m>
+                       <z-m> -0.58 </z-m>
+               </offsets>
+        </model>
+  
+        <model>
+		<name>Co-pilot/Navigator</name>
+                <path>Aircraft/Tornado/Models/Cockpit/Pilot/pilot.xml</path>
+                <offsets>
+			<x-m> -2.40 </x-m>
+                        <y-m>   0.00 </y-m>
+                        <z-m>  -0.52 </z-m>
+                </offsets>
+        </model>
+
+        <animation>
+                <type>select</type>
+                <object-name>Pilot</object-name>
+                <condition>
+			<not-equals>
+				<property>sim/current-view/name</property>
+                                <value>Pilots View</value>
+                        </not-equals>
+                </condition>
+        </animation>
+
+        <animation>
+                <type>select</type>
+                <object-name>Co-pilot/Navigator</object-name>
+                <condition>
+			<not-equals>
+				<property>sim/current-view/name</property>
+                                <value>Navigators View</value>
+                        </not-equals>
+               </condition>
+        </animation>
+	
 	<path>Aircraft/Tornado/Models/Cockpit/Parts/Cockpit.ac</path>
 	<model>
 		<name>lights1</name>
@@ -216,6 +259,11 @@
 			<yaw-deg>3.0</yaw-deg>
 			<pitch-deg>-16.0</pitch-deg>
 		</offsets>
+	</model>
+
+	<model>
+		<name>Mirrors</name>
+		<path>Aircraft/Tornado/Models/Cockpit/Instruments/Mirrors/Mirrors.xml</path>
 	</model>
 	<!--
   <model>

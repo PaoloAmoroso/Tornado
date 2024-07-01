@@ -6,6 +6,9 @@
 				<name type="string">Royal Saudi Air Force</name>
 				<texture>LiveriesIDS/rsaf.jpg</texture>
 			</livery>
+                <tornado>
+                   <GR4 type="bool">true</GR4>
+                </tornado>
 		</model>
 	</sim>
 </PropertyList>

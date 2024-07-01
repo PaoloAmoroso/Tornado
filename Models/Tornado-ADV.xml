@@ -55,6 +55,9 @@
 		<object-name>pylon.R</object-name>
 		<object-name>pylon.C</object-name>
 		<object-name>pylon.L</object-name>
+		<object-name>Flare_Dispenser</object-name>
+                <object-name>Hook_Fairing</object-name>
+                <object-name>Hook</object-name>
 		<object-name>guns</object-name>
 		<object-name>fin</object-name>
 		<object-name>WindscreenGlass</object-name>
@@ -95,6 +98,9 @@
 		<object-name>pylon.R</object-name>
 		<object-name>pylon.C</object-name>
 		<object-name>pylon.L</object-name>
+		<object-name>Flare_Dispenser</object-name>
+                <object-name>Hook_Fairing</object-name>
+                <object-name>Hook</object-name>
 		<object-name>targetpod_0</object-name>
 		<object-name>targetpod_0.001</object-name>
 		<object-name>targetpod_1</object-name>
@@ -142,6 +148,9 @@
 		<object-name>pylon.R</object-name>
 		<object-name>pylon.C</object-name>
 		<object-name>pylon.L</object-name>
+		<object-name>Flare_Dispenser</object-name>
+                <object-name>Hook_Fairing</object-name>
+                <object-name>Hook</object-name>
 		<object-name>targetpod_0</object-name>
 		<object-name>targetpod_0.001</object-name>
 		<object-name>targetpod_1</object-name>
@@ -192,6 +201,9 @@
 		<object-name>airintakes</object-name>
 		<object-name>maingeardoor_right</object-name>
 		<object-name>maingeardoor_left</object-name>
+		<object-name>Flare_Dispenser</object-name>
+                <object-name>Hook_Fairing</object-name>
+                <object-name>Hook</object-name>
 		<object-name>ngeardoorright</object-name>
 		<object-name>ngeardoorleft</object-name>
 		<object-name>frontgeardoor1</object-name>
@@ -1365,6 +1377,26 @@
 			<z>0</z>
 		</axis>
 	</animation>
+	<!-- Tail Emergency Hook -->
+        <animation>
+		<type>rotate</type>
+                <object-name>Hook</object-name>
+                <property>sim/model/hook-positions/Hook/position-norm</property>
+                <interpolation>
+			<entry><ind> 0 </ind><dep>  0 </dep></entry>
+                        <entry><ind> 1 </ind><dep> 42 </dep></entry>
+                </interpolation>
+                <center>
+			<x-m>  4.0442 </x-m>
+                        <y-m>  0.0000 </y-m>
+                        <z-m> -1.6051 </z-m>
+               </center>
+               <axis>
+		       <x> 0 </x>
+                       <y> 1 </y>
+                       <z> 0 </z>
+              </axis>
+        </animation>
 	<model>
 		<name>nozzleLeft</name>
 		<path>Aircraft/Tornado/Models/nozzle.xml</path>

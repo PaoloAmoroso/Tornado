@@ -3,9 +3,12 @@
 	<sim>
 		<model>
 			<livery>
-				<name type="string">Farewell Flight Camo</name>
+				<name type="string">RAF, Farewell Flight Camo</name>
 				<texture>LiveriesIDS/2019Farewell_Camo.jpg</texture>
 			</livery>
+                <tornado>
+                   <GR4 type="bool">true</GR4>
+                </tornado>
 		</model>
 	</sim>
 </PropertyList>

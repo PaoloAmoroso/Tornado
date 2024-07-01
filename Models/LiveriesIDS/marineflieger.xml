@@ -6,6 +6,9 @@
 				<name type="string">Marineflieger</name>
 				<texture>LiveriesIDS/marineflieger.jpg</texture>
 			</livery>
+                <tornado>
+                   <GR4 type="bool">false</GR4>
+                </tornado>
 		</model>
 	</sim>
 </PropertyList>

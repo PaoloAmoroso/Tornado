@@ -55,6 +55,8 @@
 		<object-name>pylon.R</object-name>
 		<object-name>pylon.C</object-name>
 		<object-name>pylon.L</object-name>
+		<object-name>Hook_Fairing</object-name>
+                <object-name>Hook</object-name>
 		<object-name>guns</object-name>
 		<object-name>fin</object-name>
 		<object-name>WindscreenGlass</object-name>
@@ -95,6 +97,8 @@
 		<object-name>pylon.R</object-name>
 		<object-name>pylon.C</object-name>
 		<object-name>pylon.L</object-name>
+		<object-name>Hook_Fairing</object-name>
+                <object-name>Hook</object-name>
 		<object-name>targetpod_0</object-name>
 		<object-name>targetpod_0.001</object-name>
 		<object-name>targetpod_1</object-name>
@@ -145,6 +149,8 @@
 		<object-name>pylon.R</object-name>
 		<object-name>pylon.C</object-name>
 		<object-name>pylon.L</object-name>
+		<object-name>Hook_Fairing</object-name>
+                <object-name>Hook</object-name>
 		<object-name>targetpod_0</object-name>
 		<object-name>targetpod_0.001</object-name>
 		<object-name>targetpod_1</object-name>
@@ -1409,6 +1415,27 @@
 			<z>0</z>
 		</axis>
 	</animation>
+	<!-- Tail Emergency Hook -->
+        <animation>
+		<type>rotate</type>
+                <object-name>Hook</object-name>
+                <property>sim/model/hook-positions/Hook/position-norm</property>
+                <interpolation>
+			<entry><ind> 0 </ind><dep>  0 </dep></entry>
+                        <entry><ind> 1 </ind><dep> 39 </dep></entry>
+                </interpolation>
+                <center>
+                        <x-m>  3.2420 </x-m>
+			<y-m>  0.0000 </y-m>
+                        <z-m> -1.6091 </z-m>
+                </center>
+		<axis>
+			<x> 0 </x>
+                        <y> 1 </y>
+                        <z> 0 </z>
+               
+                </axis>
+        </animation>
 	<model>
 		<name>nozzleLeft</name>
 		<path>Aircraft/Tornado/Models/nozzle.xml</path>
@@ -1449,6 +1476,19 @@
 			<z-m>-0.81</z-m>
 		</offsets>
 	</model>
+	<!-- Selection of the nose equipment depending on the IDS/GR.4 Variant -->
+        <animation>
+		<type>select</type>
+		<object-name>targetpod_0</object-name>
+                <object-name>targetpod_glass</object-name>
+                <object-name>targetpod_0.001</object-name>
+                <object-name>targetpod_1</object-name>
+                <object-name>trous_0</object-name>
+                <object-name>lampe</object-name>
+	        <condition>
+			<property>sim/model/tornado/GR4</property>
+	        </condition>
+        </animation>
 	<!-- push-back -->
 	<model>
 		<name>Pushback</name>

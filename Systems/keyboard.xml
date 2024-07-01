@@ -41,6 +41,24 @@
 			<value>0</value>
 		</binding>
 	</key>
+	<key n="79">
+		<name>O</name>
+                <desc>Hook Extend</desc>
+                <binding>
+			<command>property-assign</command>
+                        <property>sim/model/hook-positions/Hook/position-norm</property>
+                        <value type="double"> 1 </value>
+               </binding>
+        </key>
+        <key n="111">
+		<name>o</name>
+                <desc>Hook Retract</desc>
+                <binding>
+			<command>property-assign</command>
+                        <property>sim/model/hook-positions/Hook/position-norm</property>
+                        <value type="double"> 0 </value>
+               </binding>
+        </key>
 	<key n="76">
 		<name>L</name>
 		<desc>Cockpit Light</desc>

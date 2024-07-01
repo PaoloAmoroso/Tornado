@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>Mirrors.ac</path>
+
+<animation>
+    <object-name>Mirror_L</object-name>
+    <object-name>Mirror_C</object-name>
+    <object-name>Mirror_R</object-name>
+    <object-name>Glass_L</object-name>
+    <object-name>Glass_C</object-name>
+    <object-name>Glass_R</object-name>
+  </animation>
+
+  <effect>
+    <inherits-from>mirror</inherits-from>
+    <object-name>Glass_L</object-name>
+    <object-name>Glass_C</object-name>
+    <object-name>Glass_R</object-name>
+  </effect>
+
+</PropertyList>

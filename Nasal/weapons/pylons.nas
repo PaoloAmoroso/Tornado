@@ -43,6 +43,7 @@ var pylonSets = {
 
     mm27:  {name: "27mm Cannon", content: [cannon], fireOrder: [0], launcherDragArea: 0.0, launcherMass: 0, launcherJettisonable: 0, showLongTypeInsteadOfCount: 1, category: 1},
     boz10x: {name: "BOZ-101/102/107", content: [], fireOrder: [], launcherDragArea: 0.0, launcherMass: 100, launcherJettisonable: 0, showLongTypeInsteadOfCount: 0, category: 1},
+    LITENING: {name: "LITENING Pod", content: [], fireOrder: [], launcherDragArea: 0.0, launcherMass: 100, launcherJettisonable: 0, showLongTypeInsteadOfCount: 0, category: 1},
 
     # A/A weapons
     aim9l:     {name: "1 x AIM-9L", content: ["AIM-9L"], fireOrder: [0], launcherDragArea: 0.025, launcherMass: 90, launcherJettisonable: 0, showLongTypeInsteadOfCount: 0, category: 1},#non wingtip
@@ -75,7 +76,7 @@ if(variant==1) {
     pylon2set = [pylonSets.empty, pylonSets.aim9l, pylonSets.aim9l_2];
     pylon3set = [pylonSets.empty, pylonSets.fuel12WL];
     pylon4set = [pylonSets.empty, pylonSets.m82_2, pylonSets.m82air_2, pylonSets.m83, pylonSets.m84]; #pylonSets.fuel12CL
-    pylon5set = [pylonSets.empty, pylonSets.b617];
+    pylon5set = [pylonSets.empty, pylonSets.b617, pylonSets.LITENING];
     pylon6set = [pylonSets.empty, pylonSets.m82_2, pylonSets.m82air_2, pylonSets.m83, pylonSets.m84]; #pylonSets.fuel12CR
     pylon7set = [pylonSets.empty, pylonSets.fuel12WR];
     pylon8set = [pylonSets.empty, pylonSets.aim9l, pylonSets.aim9l_2];

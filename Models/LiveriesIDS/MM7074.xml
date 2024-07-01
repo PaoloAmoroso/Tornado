@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+	<sim>
+		<model>
+			<livery>
+				<name type="string">AMI, MM7074</name>
+				 <index type="int">1</index>
+				  <texture>LiveriesIDS/MM7074.jpg</texture>
+			</livery>
+                <tornado>
+                   <GR4 type="bool">false</GR4>
+                </tornado>
+		</model>
+	</sim>
+</PropertyList>
