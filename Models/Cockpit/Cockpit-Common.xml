@@ -217,6 +217,11 @@
 			<pitch-deg>-16.0</pitch-deg>
 		</offsets>
 	</model>
+
+	<model>
+		<name>Mirrors</name>
+		<path>Aircraft/Tornado/Models/Cockpit/Instruments/Mirrors/Mirrors.xml</path>
+	</model>
 	<!--
   <model>
   <name>Quickstart Panel</name>
