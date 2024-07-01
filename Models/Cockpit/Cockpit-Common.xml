@@ -5,9 +5,9 @@
                <name>Pilot</name>
                <path>Aircraft/Tornado/Models/Cockpit/Pilot/pilot.xml</path>
                <offsets>
-        <x-m> -4.10 </x-m>
-        <y-m>  0.00 </y-m>
-        <z-m> -0.58 </z-m>
+		       <x-m> -4.10 </x-m>
+                       <y-m>  0.00 </y-m>
+                       <z-m> -0.58 </z-m>
                </offsets>
         </model>
   
