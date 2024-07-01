@@ -1476,6 +1476,19 @@
 			<z-m>-0.81</z-m>
 		</offsets>
 	</model>
+	<!-- Selection of the nose equipment depending on the IDS/GR.4 Variant -->
+        <animation>
+		<type>select</type>
+		<object-name>targetpod_0</object-name>
+                <object-name>targetpod_glass</object-name>
+                <object-name>targetpod_0.001</object-name>
+                <object-name>targetpod_1</object-name>
+                <object-name>trous_0</object-name>
+                <object-name>lampe</object-name>
+	        <condition>
+			<property>sim/model/tornado/GR4</property>
+	        </condition>
+        </animation>
 	<!-- push-back -->
 	<model>
 		<name>Pushback</name>
