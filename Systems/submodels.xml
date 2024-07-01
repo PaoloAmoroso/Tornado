@@ -192,4 +192,51 @@
         <impact>true</impact>
         <impact-report>ai/models/model-impact</impact-report>
     </submodel>
+
+    <!-- Tornado ADV Flares -->
+    <submodel>
+        <name>flaresR</name>
+        <model>Aircraft/Tornado/Models/Stores/flare.xml</model>
+        <trigger>fdm/jsbsim/fcs/flaretrigger</trigger>
+        <speed>90</speed>
+        <repeat>true</repeat>
+        <delay>0.25</delay>
+        <count>-1</count>
+        <offsets>
+            <x-m>  4.98 </x-m>
+            <y-m> -0.58 </y-m>
+            <z-m> -1.65 </z-m>
+            <pitch-deg>180</pitch-deg>
+        </offsets>
+        <life>5</life>
+        <buoyancy>3</buoyancy>
+        <weight>2.5</weight>
+        <eda>1.0</eda>
+        <cd>1.0</cd>
+        <no-roll>true</no-roll>
+        <wind>true</wind>
+    </submodel>
+
+    <submodel>
+        <name>flaresL</name>
+        <model>Aircraft/Tornado/Models/Stores/flare.xml</model>
+        <trigger>fdm/jsbsim/fcs/flaretrigger</trigger>
+        <speed>90</speed>
+        <repeat>true</repeat>
+        <delay>0.25</delay>
+        <count>-1</count>
+        <offsets>
+            <x-m>  4.98 </x-m>
+            <y-m>  0.58 </y-m>
+            <z-m> -1.65 </z-m>
+            <pitch-deg>180</pitch-deg>
+        </offsets>
+        <life>5</life>
+        <buoyancy>3</buoyancy>
+        <weight>2.5</weight>
+        <eda>1.0</eda>
+        <cd>1.0</cd>
+        <no-roll>true</no-roll>
+        <wind>true</wind>
+    </submodel>
 </PropertyList>
