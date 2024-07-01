@@ -6,6 +6,9 @@
 				<name type="string">MRCA Prototype P-02</name>
 				<texture>LiveriesIDS/mrca.jpg</texture>
 			</livery>
+                <tornado>
+                   <GR4 type="bool">false</GR4>
+                </tornado>
 		</model>
 	</sim>
 </PropertyList>

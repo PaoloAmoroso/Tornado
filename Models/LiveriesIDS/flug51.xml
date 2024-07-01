@@ -6,6 +6,9 @@
 				<name type="string">Luftwaffe, Flug AG51</name>
 				<texture>Tornado-IDS.jpg</texture>
 			</livery>
+                <tornado>
+                   <GR4 type="bool">false</GR4>
+                </tornado>
 		</model>
 	</sim>
 </PropertyList>
