@@ -681,11 +681,6 @@
 	<model>
 		<name>Tanker</name>
 		<path>Aircraft/Tornado/Models/Stores/Tanker-Tank/Tanker-Tank.xml</path>
-                <offsets>
-			<x-m> 0.0 </x-m>
-			<y-m> 0.0 </y-m>
-			<z-m> 0.1 </z-m>
-		</offsets>
 	</model>
 	<animation>
 		<object-name>Tanker</object-name>
