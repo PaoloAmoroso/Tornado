@@ -41,6 +41,15 @@
 			<value>0</value>
 		</binding>
 	</key>
+	<key n="102">
+		<name>f</name>
+		<desc>Fuel Hose</desc>
+		<binding>
+			<command>property-toggle</command>
+			<property>sim/model/FuelHose-positions/FuelHose/position-norm</property>
+			<value>1</value>
+		</binding>
+	</key>
 	<key n="79">
 		<name>O</name>
                 <desc>Hook Extend</desc>
