@@ -22,6 +22,10 @@
 		<desc>gear up/down</desc>
 	</key>
 	<key>
+		<name>f</name>
+		<desc>Refuelling Probe</desc>
+	</key>
+	<key>
 		<name>l</name>
 		<desc>landing lights</desc>
 	</key>
