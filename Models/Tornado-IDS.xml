@@ -1323,8 +1323,8 @@
 			<button>0</button>
 			<repeatable>false</repeatable>
 			<binding>
-				<command>property-toggle</command>
-				<property>sim/model/FuelHose-positions/FuelHose/position-norm</property>
+				<command>nasal</command>
+				<script>doors.FuelHose.toggle();</script>
 			</binding>
 		</action>
 	</animation>
