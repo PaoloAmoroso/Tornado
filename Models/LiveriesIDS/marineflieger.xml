@@ -8,7 +8,7 @@
 			</livery>
 			<tornado>
 				<GR4 type="bool">false</GR4>
-				<Probe type="bool">true</Probe>
+				<Probe type="bool">false</Probe>
 			</tornado>
 		</model>
 	</sim>
