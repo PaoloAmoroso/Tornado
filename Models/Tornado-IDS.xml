@@ -1505,6 +1505,19 @@
 			<property>sim/model/tornado/GR4</property>
 	        </condition>
         </animation>
+	<!-- Selection of the Refuelling Probe, depending on the aircraft version, upgrade and equipment needed for long-range missions -->
+	<animation>
+		<type>select</type>
+		<object-name>FuelHose1</object-name>
+		<object-name>FuelHose2</object-name>
+		<object-name>FuelHoseCover</object-name>
+		<object-name>FuelHoseCover1</object-name>
+		<object-name>FuelHoseCover2</object-name>
+		<object-name>FuelHoseStrut</object-name>
+		<condition>
+			<property>sim/model/tornado/Probe</property>
+		</condition>
+	</animation>
 	<!-- push-back -->
 	<model>
 		<name>Pushback</name>
