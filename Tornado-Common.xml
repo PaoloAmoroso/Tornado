@@ -32,6 +32,18 @@
 			<path>Aircraft/Tornado/Systems/submodels.xml</path>
 		</submodels>
 	</sim>
+	
+	<systems>
+		<refuel>
+			<type>probe</type>
+			<serviceable type="bool">true</serviceable>
+			<max-fuel-transfer-lbs-min>6200</max-fuel-transfer-lbs-min>
+			<offset-x-m>0</offset-x-m>
+                        <offset-y-m>0</offset-y-m>
+                        <offset-z-m>1</offset-z-m>
+		</refuel>
+	</systems>
+
 	<engines>
 		<engine n="0">
 			<reverser-pos-norm type="double">0</reverser-pos-norm>
@@ -167,5 +179,9 @@
 		<weapons>
 			<file>Aircraft/Tornado/Nasal/weapons/weaponUtils.nas</file>
 		</weapons>
+		<aar> 
+			<file>Aircraft/Generic/aar.nas</file>
+		</aar>
+
 	</nasal>
 </PropertyList>
